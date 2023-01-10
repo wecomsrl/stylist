@@ -1,6 +1,6 @@
 <?php
 
-namespace Ohswedd\Stylist\Theme\Exceptions;
+namespace Wecomsrl\Stylist\Theme\Exceptions;
 
 class ThemeJsonNotFoundException extends \Exception
 {

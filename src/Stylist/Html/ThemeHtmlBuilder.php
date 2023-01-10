@@ -1,8 +1,8 @@
 <?php
-namespace Ohswedd\Stylist\Html;
+namespace Wecomsrl\Stylist\Html;
 
 use Collective\Html\HtmlBuilder;
-use Ohswedd\Stylist\Facades\StylistFacade;
+use Wecomsrl\Stylist\Facades\StylistFacade;
 use Illuminate\Routing\UrlGenerator;
 
 class ThemeHtmlBuilder

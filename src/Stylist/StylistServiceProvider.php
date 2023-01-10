@@ -1,11 +1,11 @@
 <?php
-namespace Ohswedd\Stylist;
+namespace Wecomsrl\Stylist;
 
 use Cache;
 use Config;
-use Ohswedd\Stylist\Html\ThemeHtmlBuilder;
-use Ohswedd\Stylist\Theme\Loader;
-use Ohswedd\Stylist\Theme\Stylist;
+use Wecomsrl\Stylist\Html\ThemeHtmlBuilder;
+use Wecomsrl\Stylist\Theme\Loader;
+use Wecomsrl\Stylist\Theme\Stylist;
 use Illuminate\Support\AggregateServiceProvider;
 use Illuminate\Foundation\AliasLoader;
 
@@ -92,10 +92,10 @@ class StylistServiceProvider extends AggregateServiceProvider
     {
         $aliasLoader = AliasLoader::getInstance();
 
-        $aliasLoader->alias('Stylist', 'Ohswedd\Stylist\Facades\StylistFacade');
-        $aliasLoader->alias('Theme', 'Ohswedd\Stylist\Facades\ThemeFacade');
+        $aliasLoader->alias('Stylist', 'Wecomsrl\Stylist\Facades\StylistFacade');
+        $aliasLoader->alias('Theme', 'Wecomsrl\Stylist\Facades\ThemeFacade');
 
-        $this->app->alias('stylist', 'Ohswedd\Stylist\Theme\Stylist');
+        $this->app->alias('stylist', 'Wecomsrl\Stylist\Theme\Stylist');
     }
 
     /**
@@ -104,7 +104,7 @@ class StylistServiceProvider extends AggregateServiceProvider
     private function registerCommands()
     {
         $this->commands(
-            'Ohswedd\Stylist\Console\PublishAssetsCommand'
+            'Wecomsrl\Stylist\Console\PublishAssetsCommand'
         );
     }
 

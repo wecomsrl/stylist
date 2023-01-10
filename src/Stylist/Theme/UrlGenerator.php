@@ -1,5 +1,5 @@
 <?php
-namespace Ohswedd\Stylist\Theme;
+namespace Wecomsrl\Stylist\Theme;
 
 /**
  * Class UrlGenerator

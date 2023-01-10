@@ -1,9 +1,9 @@
 <?php
 
-namespace Ohswedd\Stylist\Theme;
+namespace Wecomsrl\Stylist\Theme;
 
 use File;
-use Ohswedd\Stylist\Theme\Exceptions\ThemeJsonNotFoundException;
+use Wecomsrl\Stylist\Theme\Exceptions\ThemeJsonNotFoundException;
 
 class Json
 {

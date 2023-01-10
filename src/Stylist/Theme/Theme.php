@@ -1,5 +1,5 @@
 <?php
-namespace Ohswedd\Stylist\Theme;
+namespace Wecomsrl\Stylist\Theme;
 
 use File;
 use Illuminate\Contracts\Support\Arrayable;

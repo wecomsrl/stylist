@@ -1,5 +1,5 @@
 <?php
-namespace Ohswedd\Stylist\Facades;
+namespace Wecomsrl\Stylist\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

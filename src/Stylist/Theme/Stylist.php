@@ -1,9 +1,9 @@
 <?php
 
-namespace Ohswedd\Stylist\Theme;
+namespace Wecomsrl\Stylist\Theme;
 
 use Cache;
-use Ohswedd\Stylist\Theme\Exceptions\ThemeNotFoundException;
+use Wecomsrl\Stylist\Theme\Exceptions\ThemeNotFoundException;
 use Illuminate\Container\Container;
 
 /**

@@ -1,7 +1,7 @@
 <?php
-namespace Ohswedd\Stylist\Console;
+namespace Wecomsrl\Stylist\Console;
 
-use Ohswedd\Stylist\Theme\Theme;
+use Wecomsrl\Stylist\Theme\Theme;
 use Stylist;
 use Illuminate\Console\Command;
 use Illuminate\Contracts\Container\Container;

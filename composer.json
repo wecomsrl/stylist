@@ -1,5 +1,5 @@
 {
-    "name": "ohswedd/stylist",
+    "name": "wecomsrl/stylist",
     "version": "1.8",
     "description": "A simple Laravel package.",
     "type": "project",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ohswedd\\Stylist\\": "src/Stylist",
+            "Wecomsrl\\Stylist\\": "src/Stylist",
             "Tests\\": "tests"
         }
     },
