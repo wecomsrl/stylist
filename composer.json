@@ -1,0 +1,27 @@
+{
+    "name": "ohswedd/stylist",
+    "version": "1.8",
+    "description": "A simple Laravel package.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Edoardo Federici",
+            "email": "francis01@simplexi.com.ph"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+      "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ohswedd\\Stylist\\": "src/Stylist",
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "6.0"
+    }
+}
